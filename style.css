@@ -19,7 +19,7 @@ h1 {
     font-size: 80px;
 }
 
-.container_square {
+#container_square {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -27,6 +27,36 @@ h1 {
 
 .square {
     background-color: rgb(51, 115, 199);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13%;
+    height: 90px;
+    margin-bottom: 20px;
+}
+
+.square_fizz {
+    background-color: rgb(34, 224, 183);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13%;
+    height: 90px;
+    margin-bottom: 20px;
+}
+
+.square_buzz {
+    background-color: rgb(253, 237, 89);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13%;
+    height: 90px;
+    margin-bottom: 20px;
+}
+
+.square_fizzBuzz{
+    background-color: rgb(185, 35, 110);
     display: flex;
     justify-content: center;
     align-items: center;
