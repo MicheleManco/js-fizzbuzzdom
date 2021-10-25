@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(15, 79, 116);
+}
+
+.big_container {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white; 
+    font-size: 80px;
+}
+
+.container_square {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.square {
+    background-color: rgb(51, 115, 199);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13%;
+    height: 90px;
+    margin-bottom: 20px;
+}
